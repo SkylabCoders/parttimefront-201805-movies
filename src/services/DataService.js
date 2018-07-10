@@ -23,11 +23,36 @@ const discoverMovies = function(page){
     return moviesPromise;
 }
 
+// Lo mismo que el de movies pero con series
 const discoverSeries = function(page){
 
 }
 
+// Obtiene una película por su id. Esta función se debe añadir al export (abajo del todo)
+// Para que pueda ser llamada desde fuera del service
+const getMoviesItem = function(id){
+
+}
+
+// Obtiene una serie por su id. Esta función se debe añadir al export (abajo del todo)
+// Para que pueda ser llamada desde fuera del service
+const getSerieItem = function(id){
+
+}
+
+// Obtiene las películas que tengan cierto género. Esta función se debe añadir al 
+// export (abajo del todo) para que pueda ser llamada desde fuera del service
+const getMoviesByGenre = function(genre){
+
+}
+
+// Obtiene las series que tengan cierto género. Esta función se debe añadir al 
+// export (abajo del todo) para que pueda ser llamada desde fuera del service
+const getSeriesByGenre = function(genre){
+
+}
 
 export default {
-    discoverMovies
+    discoverMovies,
+    discoverSeries
 }
