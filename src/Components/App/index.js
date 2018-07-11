@@ -3,7 +3,10 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import DiscoverMovies from '../DiscoverMovies';
 import AppHeader from '../../Commons/AppHeader';
 
+
 class App extends Component {
+
+  
   render() {
     return (
       <Router>

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box; }
+
+.app-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  margin: 0px;
+  position: fixed;
+  background-color: RGB(116 116 116); }
+  .app-header p {
+    margin-left: 15px;
+    color: orange;
+    font-weight: 550; }
+  .app-header nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    margin-left: 2%; }
+    .app-header nav :hover {
+      background-color: orange; }
+    .app-header nav div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 15px; }
+      .app-header nav div p {
+        margin-left: 0px;
+        padding: 0px 12px 0px 12px; }
+        .app-header nav div p a {
+          text-decoration: none;
+          color: white;
+          font-weight: 550; }
